@@ -1,0 +1,8 @@
+import school.Teacher
+
+model {
+	Iterable<Teacher> teacherList
+}
+
+json tmpl.teacher(teacherList ?: [])
+

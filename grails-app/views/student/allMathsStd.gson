@@ -1,0 +1,7 @@
+import school.Student
+
+model {
+	Iterable<Student> allMathsStd
+}
+
+json tmpl.allMathsStd(allMathsStd ?: [])

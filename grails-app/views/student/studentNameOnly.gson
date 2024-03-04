@@ -1,0 +1,7 @@
+import school.Student
+
+model {
+	Iterable<Student> studentNameOnly
+}
+
+json tmpl.studentNameOnly(studentNameOnly ?: [])

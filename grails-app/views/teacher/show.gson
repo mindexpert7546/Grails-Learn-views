@@ -1,0 +1,7 @@
+import school.Teacher
+
+model {
+	Teacher teacher
+}
+
+json tmpl.teacher(teacher)

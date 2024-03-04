@@ -1,0 +1,11 @@
+import school.Student
+model {
+    Student student
+}
+
+json {
+    name student?.name
+    section student?.section
+    rollNo  student?.rollNo
+    age student?.age
+}
